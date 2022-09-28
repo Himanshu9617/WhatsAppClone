@@ -1,0 +1,94 @@
+.chat{
+    flex: 0.7;
+    flex-direction: column;
+    display: flex;
+}
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid lightgrey;
+    padding: 13px;
+    background-color: rgb(238, 238, 238);
+}
+.chat_headerInfo{
+    align-items: center;
+    flex: 1;
+    padding-top: 8px;
+}
+.chat_headerInfo h3{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.chat_headerInfo p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}
+.header_right svg {
+    font-size: 20px;
+}
+
+.chat_body{
+    background-color: rgb(230,230,220);
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+.chat_message{
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 2;
+}
+.chat_name{
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.chat_time{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.chat_sent{
+    background-color: rgb(220,250,200);
+    margin-left: auto;
+}
+
+.chat_footer{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    background-color: rgb(238, 238, 238);
+}
+.chat_footer svg{
+    font-size: 27px;
+}
+.chat_footer form{
+    flex: 1;
+}
+.chat_footer form input[type='text']{
+    border: 0;
+    height: 35px;
+    border-radius: 7px;
+    outline: 0;
+    width: 100%;
+}
+.chat_footer form input[type='submit']{
+    display: none;
+}

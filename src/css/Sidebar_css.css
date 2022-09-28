@@ -1,0 +1,80 @@
+.sidebar{
+    flex:0.3;
+    background-color: white;
+}
+.sidebar_constant{
+    overflow-y: auto;
+    height: 80%;
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid lightgrey;
+    padding: 13px;
+    background-color: rgb(238, 238, 238);
+}
+.sidebar_header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+.sidebar_header_right svg {
+    font-size: 20px;
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 35px;
+    padding: 10px;
+
+}
+.search_cont{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    border-right: 20px;
+    border-radius: 22px;
+    width: 100%;
+}
+.search_cont svg{
+    font-size: 15px;
+}
+.search_cont input{
+    border: 0;
+    margin-left: 10px;
+    outline: 0;
+    width: 100%;
+}
+.sidebar_chats {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.sidebar_chat{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.sidebar_chat:hover{
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+.sidebar_chat_info h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar_chat_info p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.sidebar_link_chat{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(18, 47, 66);
+}
+.App{
+  height: 100vh;
+  background-color: dadbd3;
+  display: grid;
+  place-items: center;
+}
+.app_body{
+  height: 80vh;
+  width: 80vw;
+  background-color: rgb(79, 120, 107);
+  display: flex;
+}
